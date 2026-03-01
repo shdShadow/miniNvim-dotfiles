@@ -4,5 +4,5 @@ MiniDeps.add({
 
 MiniDeps.now(function()
 	require("outline").setup()
-	vim.keymap.set("n", "<leader>o", "<cmd>Outline<CR>", { desc = "Toggle Outline" })
+	vim.keymap.set("n", "<leader>out", "<cmd>Outline<CR>", { desc = "Toggle Outline" })
 end)

@@ -2,6 +2,7 @@
 
 -- List all plugin modules in this folder
 local modules = {
+	"tabout",
 	"telescope", --ok
 	"conform", --ok
 	"globals", --ok
@@ -26,9 +27,10 @@ local modules = {
 	"zen-mode",
 	"limelight",
 	"outline",
-	--"obsidian",
+	"obsidian",
 	"nvlime",
 	--"zotcite",
+	"image",
 	-- add more files here
 }
 
